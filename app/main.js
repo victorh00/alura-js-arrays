@@ -2,7 +2,6 @@ let livros = [];
 let desconto = true;
 const endpointDaApi = 'https://guilhermeonrails.github.io/casadocodigo/livros.json';
 getBuscarLivrosDaApi();
-const livrosSection = document.getElementById("livros");
 
 async function getBuscarLivrosDaApi() {
     try {
